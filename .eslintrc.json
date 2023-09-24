@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "plugin:unicorn/recommended"]
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:unicorn/recommended",
+    "plugin:security/recommended",
+    "array-func"
+  ]
 }
